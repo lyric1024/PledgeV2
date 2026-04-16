@@ -1,0 +1,8 @@
+# 排除所有依赖库的干扰
+lib/* linguist-vendored
+
+# 排除可能存在的 Go 文件统计
+*.go linguist-detectable=false
+
+# 确保 Solidity 权重最高
+*.sol linguist-detectable=true
